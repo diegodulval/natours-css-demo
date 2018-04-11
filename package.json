@@ -4,17 +4,14 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/.bin/live-server",
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diegodulval/natours-demo.git"
   },
-  "keywords": [
-    "Sass",
-    "css",
-    "html"
-  ],
+  "keywords": ["SASS", "CSS", "HTML"],
   "author": "Diego Dulval",
   "license": "MIT",
   "bugs": {
@@ -22,6 +19,7 @@
   },
   "homepage": "https://github.com/diegodulval/natours-demo#readme",
   "devDependencies": {
+    "live-server": "^1.2.0",
     "node-sass": "^4.8.3"
   }
 }
