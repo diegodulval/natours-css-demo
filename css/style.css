@@ -201,6 +201,11 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  .feature-box__icon {
+    background-image: linear-gradient(to right, #766fd5, #5928b4);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px; }
 
 .header {
   height: 95vh;
