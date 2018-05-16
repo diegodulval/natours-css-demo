@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/diegodulval/natours-demo.git"
   },
-  "keywords": ["SASS", "CSS", "HTML"],
+  "keywords": [
+    "SASS",
+    "CSS",
+    "HTML"
+  ],
   "author": "Diego Dulval",
   "license": "MIT",
   "bugs": {
