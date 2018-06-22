@@ -50,7 +50,7 @@ body {
   color: transparent;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
-  &:hover { 
+  &:hover {
     //transform: skewY(2deg) skewX(15deg) scale(1.1);
     animation: pulse 1s ease-out;
     text-shadow: 0.1rem 0.7rem 1rem rgba($color-black, 0.2);
