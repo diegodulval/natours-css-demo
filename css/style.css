@@ -302,7 +302,7 @@ body {
   .composition__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
+    border-radius: 3px;
     position: absolute;
     transition: all 0.2s;
     z-index: 10;
@@ -456,3 +456,14 @@ body {
 .section-stories {
   position: relative;
   padding: 15rem 0; }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #36d4f0, #208496); }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  height: 50rem; }
